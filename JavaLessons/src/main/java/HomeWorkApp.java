@@ -21,7 +21,6 @@ public class HomeWorkApp {
 
     }
 
-
     /*
     Создайте метод printThreeWords(),
     который при вызове должен отпечатать в столбец три слова: Orange, Banana, Apple.
@@ -33,7 +32,6 @@ public class HomeWorkApp {
 
         System.out.println(word1 + "\n" + word2 + "\n" + word3);
     }
-
 
     /*
     Создайте метод checkSumSign(), в теле которого объявите две int переменные a и b,
@@ -70,7 +68,6 @@ public class HomeWorkApp {
             System.out.println("Зеленый");
         }
     }
-
 
     /*
     Создайте метод compareNumbers(), в теле которого объявите две int переменные a и b,
