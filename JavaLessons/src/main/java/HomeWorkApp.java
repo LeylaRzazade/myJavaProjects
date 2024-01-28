@@ -4,7 +4,7 @@
     - creating repository in Github(see myJavaProjects);
     - creating Maven module(see JavaLessons);
     - creating branch (see Java_AQA_Lesson1);
-    - creating HomeWorkApp Class;
+    - creating HomeWorkApp Class (see HomeWorkApp.java);
     - creating methods: printThreeWords(), checkSumSign(), printColor(), compareNumbers();
 */
 
