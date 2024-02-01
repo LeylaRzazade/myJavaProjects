@@ -12,8 +12,8 @@ public class Method8 {
 
     public static void createTwoDimArray(){
         int[][] myArray = new int[4][4];
-        int i = 0;
-        int j = 0;
+        int i;
+        int j;
         for (i=0; i<myArray.length; i++){
             for(j=0; j<myArray.length; j++){
                 if(i==j || i+j==(myArray.length-1)){

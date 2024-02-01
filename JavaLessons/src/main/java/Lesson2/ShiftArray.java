@@ -14,8 +14,8 @@ public class ShiftArray {
         int[] leftArray;
 
 
-        int j=0;
-        int k=0;
+        int j;
+        int k;
         if(num>0){
             rightArray = new int[num];
             leftArray = new int[myArray.length-num];
@@ -28,7 +28,7 @@ public class ShiftArray {
                 leftArray[k] = myArray[k];
             }
 
-            int l=0;
+            int l;
             for(l=0;l<rightArray.length;l++){
                 myNewArray[l] = rightArray[l];
             }
