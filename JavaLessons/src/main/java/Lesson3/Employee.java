@@ -43,9 +43,9 @@ public class Employee {
         persArray[3] = new Employee("Ali Ahmedov", "General Manager", "ali.ahmedov@gmail.com", "+9945555868", 17000, 45);
         persArray[4] = new Employee("Sara Asgerova", "HR Specialist", "sara.asgrv@mail.ru", "+994559263468", 900, 40);
 
-        for(int i=0; i<persArray.length; i++) {
-            if (persArray[i].age > 40) {
-                persArray[i].displayInfo();
+        for (Employee employee : persArray) {
+            if (employee.age > 40) {
+                employee.displayInfo();
                 System.out.println(); //printing empty line after each employee
             }
         }
