@@ -3,8 +3,8 @@ package Lesson5;
 import java.util.ArrayList;
 
 class Box<T extends Fruit> {
-    private ArrayList<T> fruits = new ArrayList<>();
-    private FruitType boxType;
+    private final ArrayList<T> fruits = new ArrayList<>();
+    private final FruitType boxType;
     public Box(FruitType boxType) {
         this.boxType = boxType;
     }
